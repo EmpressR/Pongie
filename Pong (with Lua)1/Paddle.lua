@@ -30,7 +30,8 @@ end
 
 
 function Paddle:render()
-
+    
+    love.graphics.setColor(0.9, 0, 0.1, 1)
     love.graphics.rectangle('fill', self.x, self.y, self.width, self.height)
 end
 
